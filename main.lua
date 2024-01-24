@@ -1,0 +1,5 @@
+local checker=require("checker")
+print("Enter a password: ")
+local pass=io.read()
+local strength=checker.checkStrength(pass)
+print("Password strength is " .. strength)
